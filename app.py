@@ -4,6 +4,11 @@ import plotly.express as px
 
 car_data = pd.read_csv('vehicles_us.csv')
 
+st.set_page_config(page_title="Proyecto Sprint 6")
+
+st.title("Proyecto Sprint 6:")
+
+st.header("Graficos para el conjunto de datos de anuncios de ventas de coches")
 
 select_button = st.selectbox('Construir grafico', ('Seleccionar', 'Histograma', 'Dispersion')) # crear un botón
         
